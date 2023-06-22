@@ -134,29 +134,14 @@
           }
         </style>
         
-        <div class="photos-of-attendees">
-          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              {% for i in images %}
-              <div class="carousel-item {% if loop.index == 1 %}active{% endif %}">
-                <img src="https://storage.googleapis.com/emp_png/{{ i }}" alt="Image">
+        <div class="curosel-here-wrapper">   
+                <!-- <img src = "static/public/account-circle.svg" alt = "Image" style = "height: 100px;width: 150px; object-fit: cover;">   -->
+                <img src="https://cdn.sanity.io/images/4y5gb0f2/production/99ce546807fcf13b7a8dca6621510b136e41c79c-600x338.gif" alt="Image" style="height: 400px; width: 1196px; object-fit: cover; position: absolute;">
               </div>
-              {% endfor %}
+          
             </div>
           </div>
-        </div>
-        
-        <script>
-          document.addEventListener('DOMContentLoaded', function () {
-            var carousel = document.querySelector('#carouselExample');
-            var carouselInstance = new bootstrap.Carousel(carousel, {
-              interval: 500, // Set the interval in milliseconds (3 seconds in this example)
-              ride: true,
-              wrap: true
-            });
-          });
-        </script>
-        
+        </div>        
       </div>
     </div>
   </body>

@@ -1,9 +1,9 @@
 .whatsapp-image-2023-06-16-at-2 {
   position: absolute;
-  top: 17px;
-  left: 41px;
-  width: 407px;
-  height: 522px;
+  top: 10px;
+  left: 30px;
+  width: 300px;
+  height: 400px;
   object-fit: cover;
 }
 .frame-child {
@@ -345,12 +345,9 @@
   position: absolute;
   top: 208px;
   left: 162px;
-  border-radius: 10px;
-  background-color: var(--color-darkslategray);
-  border: 5px solid var(--color-white);
-  box-sizing: border-box;
-  width: 1196px;
-  height: 482px;
+  
+  width: 1140px;
+  height: 450px;
   font-size: 64px;
   color: var(--color-white);
   font-family: var(--font-lozdolls-fontdemo);
